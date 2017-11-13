@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("project created")
+        
+        let ferrari = Car(type: .Sport, transmissionMode: .Drive)
+        ferrari.start(minutes: 120)
+        print(ferrari.miles)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

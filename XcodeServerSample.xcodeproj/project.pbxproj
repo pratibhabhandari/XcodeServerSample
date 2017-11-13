@@ -15,6 +15,8 @@
 		C338442D1FB9AA1200925D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C338442B1FB9AA1200925D41 /* LaunchScreen.storyboard */; };
 		C33844381FB9AA1200925D41 /* XcodeServerSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33844371FB9AA1200925D41 /* XcodeServerSampleTests.swift */; };
 		C33844431FB9AA1200925D41 /* XcodeServerSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33844421FB9AA1200925D41 /* XcodeServerSampleUITests.swift */; };
+		C3F24A631FB9B73300AC8A63 /* car.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F24A621FB9B73300AC8A63 /* car.swift */; };
+		C3F24A651FB9B94C00AC8A63 /* CarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F24A641FB9B94C00AC8A63 /* CarTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C338443E1FB9AA1200925D41 /* XcodeServerSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeServerSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33844421FB9AA1200925D41 /* XcodeServerSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeServerSampleUITests.swift; sourceTree = "<group>"; };
 		C33844441FB9AA1200925D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F24A621FB9B73300AC8A63 /* car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = car.swift; sourceTree = "<group>"; };
+		C3F24A641FB9B94C00AC8A63 /* CarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				C338442B1FB9AA1200925D41 /* LaunchScreen.storyboard */,
 				C338442E1FB9AA1200925D41 /* Info.plist */,
 				C33844261FB9AA1200925D41 /* XcodeServerSample.xcdatamodeld */,
+				C3F24A621FB9B73300AC8A63 /* car.swift */,
 			);
 			path = XcodeServerSample;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			children = (
 				C33844371FB9AA1200925D41 /* XcodeServerSampleTests.swift */,
 				C33844391FB9AA1200925D41 /* Info.plist */,
+				C3F24A641FB9B94C00AC8A63 /* CarTest.swift */,
 			);
 			path = XcodeServerSampleTests;
 			sourceTree = "<group>";
@@ -264,6 +270,7 @@
 			files = (
 				C33844221FB9AA1200925D41 /* ViewController.swift in Sources */,
 				C33844201FB9AA1200925D41 /* AppDelegate.swift in Sources */,
+				C3F24A631FB9B73300AC8A63 /* car.swift in Sources */,
 				C33844281FB9AA1200925D41 /* XcodeServerSample.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F24A651FB9B94C00AC8A63 /* CarTest.swift in Sources */,
 				C33844381FB9AA1200925D41 /* XcodeServerSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
