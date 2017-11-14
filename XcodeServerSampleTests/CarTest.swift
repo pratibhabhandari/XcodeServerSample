@@ -53,4 +53,11 @@ class CarTest: XCTestCase {
         
         XCTAssertTrue(ferrari.miles > jeep.miles)
     }
+    func testSportFasterThanHonda(){
+        let minutes = 60
+        ferrari.start(minutes: minutes)
+        honda.start(minutes: minutes)
+        
+        XCTAssertTrue(ferrari.miles > honda.miles)
+    }
 }
