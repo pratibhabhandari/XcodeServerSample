@@ -15,6 +15,7 @@ class Car{
     init(type:CarType, transmissionMode: CarTransmissionMode) {
         self.type = type
         self.transmissionMode = transmissionMode
+        print("init called")
     }
     
     func start(minutes: Int) {
@@ -30,6 +31,7 @@ class Car{
         }
         
         self.miles = speed * (minutes / 60)
+        print("start called")
     }
 }
 
